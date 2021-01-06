@@ -77,7 +77,6 @@ span{
     width: 28%;
     float: left;
     margin: 1%;
-    /* display: inline-block; */
     border: 25px solid white;
     border-radius: 10px;
     height: 600px;
@@ -86,7 +85,6 @@ span{
 }
 .img-1, .img-2, .img-3{
     width: 550px;
-    /* margin-left: 50px; */
     display: inline-block;
 }
 .work-industry-img{
