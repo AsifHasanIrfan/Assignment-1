@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-right: 40px;
+}
+ul li{
+    float: right;
+    list-style-type: none;
+    padding: 10px 12px;
+    height: 24px;
+    display: inline-block;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+}
+h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+}
+p{
+    margin-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 50px; 
+}
+span{
+    color: salmon;
+}
+.header-area{
+    width: 40%;
+    float: left;
+    margin-left: 95px;
+    padding-top: 60px;
+    height: 720px;
+    display: inline;
+}
+.header-area img{
+    width: 100%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, orange, rgb(3, 110, 3));
+    padding: 20px 45px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+.working-project{
+    text-align: center;
+    background-color: rgb(235, 234, 234, 50%);
+    display: inline-block;
+    height: 850px;
+    width: 100%;
+    margin-top: 80px;
+}
+.project{
+    border-color: white;
+    background-color: rgb(185, 44, 44);
+    padding: 10px;
+    display: inline-block;
+
+}
+.project-img{
+    width: 28%;
+    float: left;
+    margin: 1%;
+    display: inline-block;
+    border: 25px solid white;
+    border-radius: 10px;
+    height: 600px;
+    box-shadow: 2px 2px 15px gray;
+    background-color: white;
+}
+.img-1, .img-2, .img-3{
+    width: 550px;
+    /* margin-left: 50px; */
+    display: inline-block;
+}
+.work-industry-img{
+    width: 25%;
+    height: 3%;
+    display: inline-block;
+    margin: 50px;
+}
