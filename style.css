@@ -77,7 +77,7 @@ span{
     width: 28%;
     float: left;
     margin: 1%;
-    display: inline-block;
+    /* display: inline-block; */
     border: 25px solid white;
     border-radius: 10px;
     height: 600px;
@@ -90,9 +90,57 @@ span{
     display: inline-block;
 }
 .work-industry-img{
-    width: 25%;
-    height: 3%;
-    display: inline-block;
+    width: 50%;
+    display: block;
     margin: 50px;
-    di
+    margin-left: auto;
+    margin-right: auto;
+}
+.container {
+        position: relative;
+        text-align: center;
+        color: white;
+}
+.work{
+    position: absolute;
+    top: 38%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+.chat{
+    position: absolute;
+    top: 50%;
+    right: 25%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    background-image: linear-gradient(45deg, orange, rgb(202, 12, 186));
+    padding: 20px 45px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+
+}
+.connected{
+    color: gray;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5%;
+    font-weight: 700;
+}
+.gmail{
+    text-decoration: none;
+    color: #363958;
+    font-size: 40px;
+}
+.social{
+    width: 1%;
+    float: left;
+    margin: 1%;
+}
+.sc-img{
+    width: 40px;
+    margin: 35px;
+    margin-left: 860px;
+    margin-bottom: 100px;
 }
